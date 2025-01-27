@@ -1,0 +1,11 @@
+/* .toDoAppSection {
+	background-color: gainsboro;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.listLabel {
+	text-align: center;
+	/* padding: 8rem;} */
