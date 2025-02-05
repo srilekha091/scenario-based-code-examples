@@ -1,0 +1,21 @@
+.container {
+	color: aliceblue;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.title {
+	text-align: center;
+	font-style: italic;
+	margin-top: 2rem;
+	padding-top: 1rem;
+}
+.meaningSection {
+	justify-content: center;
+}
+h4 {
+	color: rgb(96, 201, 138);
+	font-style: italic;
+}
