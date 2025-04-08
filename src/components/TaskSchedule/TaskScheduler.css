@@ -1,4 +1,4 @@
-* {
+/* * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
@@ -28,7 +28,6 @@ main {
 }
 
 .task-form {
-	/* display: flex; */
 	flex-wrap: wrap;
 	gap: 10px;
 	margin-bottom: 20px;
@@ -39,7 +38,6 @@ main {
 	padding: 10px;
 	border: 1px solid #ccc;
 	font-size: 16px;
-	/* flex: 1; */
 	border-radius: 10px;
 	margin: 5px;
 }
@@ -61,7 +59,6 @@ button {
 	cursor: pointer;
 }
 .task-list {
-	/* border: 1px solid #ddd; */
 	padding: 10px;
 }
 
@@ -69,7 +66,6 @@ table {
 	width: 100%;
 	margin-top: 20px;
 	background-color: #fff;
-	/* border: 1px solid #ddd; */
 }
 
 table th,
@@ -109,4 +105,4 @@ table th {
 	margin-top: 10px;
 	text-align: center;
 	font-size: 1.3rem;
-}
+} */

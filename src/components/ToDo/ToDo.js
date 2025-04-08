@@ -8,16 +8,26 @@ const ToDo = () => {
 	const inputRef = useRef(null);
 
 	const handleSubmit = (e) => {
+		e.preventDefault();
 		setItems((items) => [...items, list]);
 		inputRef.current.value = "";
 	};
 
-	const handleEdit = () => {
-		// return(
-		// 	<form>
-		// 		<input type="text" placeholder="pls update the list" onBlur={() => }/>
-		// 	</form>
-		// )
+	const handleUpdateToDo = (id) => {
+		//items.filter((item) => item.id == id);
+		//setItems([...items], )
+	};
+
+	const handleEdit = (id) => {
+		console.log(`${id} inside edit comp`);
+		return (
+			<div>
+				<form className='editForm'>
+					<input type='text' placeholder='pls update the todo item...' />
+					<button onClick={(id) => handleUpdateToDo(id)}>Update Todo</button>
+				</form>
+			</div>
+		);
 	};
 
 	const handleDelete = (id) => {
@@ -25,12 +35,12 @@ const ToDo = () => {
 	};
 
 	return (
-		<div className='toDoAppSection'>
-			<div className='header'>
-				<h2>To-Do List</h2>
-				<form>
+		<div className='toDoContainier'>
+			<div className='inputSection'>
+				<h1 className='header'>To-Do List</h1>
+				<form className='toDoFormSection' onSubmit={handleSubmit}>
 					<label htmlFor='text' className='listLabel'>
-						Please enter the to-dos:
+						<h3>Please enter the to-dos:</h3>
 					</label>
 					<br />
 					<input
@@ -42,14 +52,12 @@ const ToDo = () => {
 							setList({ id: items.length + 1, todoItem: e.target.value })
 						}
 					/>
-					<button type='button' onClick={handleSubmit}>
-						Submit
-					</button>
+					<button type='submit'>Submit</button>
 				</form>
 				<hr />
 			</div>
-			<div className='toDoList'>
-				<ul>
+			<div className='toDoWrapper'>
+				<ol>
 					{items.map((item) => {
 						return (
 							<li key={item.id}>
@@ -63,7 +71,7 @@ const ToDo = () => {
 							</li>
 						);
 					})}
-				</ul>
+				</ol>
 			</div>
 		</div>
 	);
