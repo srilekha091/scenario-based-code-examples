@@ -2,6 +2,7 @@ import React from "react";
 import { Heading, Box, Text, Image } from "@chakra-ui/react";
 import "./pages.css";
 import myImage from "./../assets/profilePic.jpg";
+import SocialMediaLinks from "../Components/SocialMediaLinks";
 
 const About = () => {
 	return (
@@ -30,6 +31,7 @@ const About = () => {
 				src={myImage}
 				alt='Srilekha'
 			/>
+			<SocialMediaLinks />
 		</Box>
 	);
 };
