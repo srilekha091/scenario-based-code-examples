@@ -1,12 +1,12 @@
 import React from "react";
 import { Heading, Box, Text, Image } from "@chakra-ui/react";
-import "./pages.css";
 import myImage from "./../assets/profilePic.jpg";
 import SocialMediaLinks from "../Components/SocialMediaLinks";
+import "./pages.css";
 
 const About = () => {
 	return (
-		<Box p={4} color='white' align='center'>
+		<Box p={4} color='white' align='center' bg='yellow.400'>
 			<Heading fontSize='xl' m={2}>
 				Hi!
 			</Heading>
@@ -16,7 +16,7 @@ const About = () => {
 			<Heading fontSize='2xl' as='cite' m={2} h={8}>
 				Full Stack Developer
 			</Heading>
-			<Text padding='2' color='white' maxW='2xl' m={6} centerContent>
+			<Text padding='3' color='white' maxW='xl' m={4} size='lg' centerContent>
 				Full Stack Developer with robust technical, analytical, and
 				problem-solving skills, backed by experience in both startup
 				environments and large-scale organizations. Passionate about continuous
