@@ -12,6 +12,7 @@ import {
 	ListItem,
 } from "@chakra-ui/react";
 import { MdSettings } from "react-icons/md";
+import ExperienceDetails from "./../content/experienceDetails";
 
 const Experience = () => {
 	return (

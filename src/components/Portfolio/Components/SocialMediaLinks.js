@@ -12,7 +12,7 @@ const SocialMediaLinks = () => {
 				target='_blank'
 				rel='noreferrer'
 			>
-				<Button aria-label='Send Email' p={3} fontSize='2xl' color='grey'>
+				<Button aria-label='Send Email' mr={3} fontSize='2xl' color='grey'>
 					<Icon as={BsLinkedin} />
 					LinkedIn
 				</Button>
