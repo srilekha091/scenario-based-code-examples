@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import Experience from "./Pages/Experience";
-import Resume from "./Pages/Resume";
+import SkillSet from "./Pages/SkillSet";
 import NavBar from "./NavBar";
 import Projects from "./Pages/Projects";
 
@@ -17,7 +17,7 @@ const MainPage = () => {
 					<Route path='/contact' element={<Contact />} />
 					<Route path='/experience' element={<Experience />} />
 					<Route path='/projects' element={<Projects />} />
-					<Route path='/resume' element={<Resume />} />
+					<Route path='/skill-set' element={<SkillSet />} />
 				</Routes>
 			</BrowserRouter>
 		</>
