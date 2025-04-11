@@ -1,4 +1,4 @@
-export const experienceDetails = [
+const experienceDetails = [
 	{
 		companyName: "A Place for Mom",
 		jobResponsibilities: [
@@ -20,3 +20,5 @@ export const experienceDetails = [
 		],
 	},
 ];
+
+export default experienceDetails;

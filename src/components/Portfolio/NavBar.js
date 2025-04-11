@@ -23,8 +23,8 @@ const NavBar = () => {
 						</Link>
 					</li>
 					<li>
-						<Link className='link' to='/resume'>
-							Resume
+						<Link className='link' to='/skill-set'>
+							Skill-Set
 						</Link>
 					</li>
 					<li>
