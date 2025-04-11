@@ -39,7 +39,7 @@ const Experience = () => {
 								<ListIcon as={MdSettings} color='yellow.700' />
 								Built a new internal front-end application using React.js and
 								TypeScript that resulted in better user engagement and
-								application functionality.
+								application .
 							</ListItem>
 							<ListItem>
 								<ListIcon as={MdSettings} color='yellow.700' />
