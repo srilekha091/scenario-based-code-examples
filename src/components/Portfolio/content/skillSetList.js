@@ -10,43 +10,47 @@ import {
 
 const SkillSet = [
 	{
-		icon: FaReact,
+		icon: <FaReact />,
 		skillName: "React",
+		color: "#61DAFB",
 	},
 	{
-		icon: SiTypescript,
+		icon: <SiTypescript />,
 		skillName: "TypeScript",
+		color: "#3178c6",
 	},
 	{
-		icon: SiJavascript,
+		icon: <SiJavascript />,
 		skillName: "JavaScript",
 	},
 	{
-		icon: SiRedux,
+		icon: <SiRedux />,
 		skillName: "Redux",
 	},
 	{
-		icon: SiReactrouter,
+		icon: <SiReactrouter />,
 		skillName: "React-Router",
 	},
 	{
-		icon: SiPostgresql,
+		icon: <SiPostgresql />,
 		skillName: "Postgresql",
 	},
 	{
-		icon: FaHtml5,
+		icon: <FaHtml5 />,
 		skillName: "HTML5",
 	},
 	{
-		icon: FaCss3,
+		icon: <FaCss3 />,
 		skillName: "CSS3",
 	},
 	{
-		icon: SiChakraui,
+		icon: <SiChakraui />,
 		skillName: "Chakra UI",
 	},
 	{
-		icon: FaAws,
+		icon: <FaAws />,
 		skillName: "AWS",
 	},
 ];
+
+export default SkillSet;
